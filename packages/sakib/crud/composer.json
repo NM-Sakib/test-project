@@ -1,0 +1,20 @@
+{
+    "name": "sakib/crud",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/",
+            "Sakib\\Crud\\": "packages/sakib/crud/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nazmus Sakib",
+            "email": "nazmus@bondstein.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}

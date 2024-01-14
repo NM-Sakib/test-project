@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Sakib\Inspire\Inspire;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,8 +15,4 @@ use Sakib\Inspire\Inspire;
 
 Route::get('/', function () {
     return view('welcome');
-});
-
-Route::get('/inspire', function () {
-    
 });

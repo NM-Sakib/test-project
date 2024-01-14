@@ -168,7 +168,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        // Sakib\Inspire\Providers\InspirationProvider::class,
+        Sakib\Crud\CrudServiceProvider::class
     ])->toArray(),
 
     /*

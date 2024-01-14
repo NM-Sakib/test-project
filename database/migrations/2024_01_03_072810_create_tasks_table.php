@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::create('tasks', function (Blueprint $table) {
             $table->id();
-            $table->title('string');
-            $table->desciption('string');
+            $table->string('title'); // Corrected from $table->title('string');
+            $table->string('description'); // Corrected from $table->desciption('string');
             $table->timestamps();
         });
     }

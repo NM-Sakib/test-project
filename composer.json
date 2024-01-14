@@ -25,13 +25,12 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/",
-            "Sakib\\Inspire\\": "packages/sakib/inspire/src/"
+            "Sakib\\Crud\\": "packages/sakib/crud/src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
-
         }
     },
     "scripts": {
